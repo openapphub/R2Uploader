@@ -8,7 +8,7 @@
 
   let activationCode = $state("");
   let error = $state("");
-  let isActivated = $state(false);
+  let isActivated = $state(true);
 
   onMount(() => {
     isActivated = globalState.appSetting.activated || false;
